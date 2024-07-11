@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?EzekielGuarin/WD-Finals)
 
 ---
 
@@ -60,17 +60,16 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project - This project is about showcasing my skills and past projects.
+- Whats the purpose - It's to highlight my skills, experience and qualifications.
+- What are key components - MultiPage Website
+- What technology used and how it is used - Used VSCODE for coding application and used HTML and CSS for my technology stack
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
