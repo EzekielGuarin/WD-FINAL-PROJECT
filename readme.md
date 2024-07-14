@@ -14,6 +14,8 @@
 <!-- TODO: Make a short description -->
 <div align="center">
   This project is a personal website that demonstrates the designs skills and web development knowledge. This website includes 5 pages, showcasing distinct layout for various features. This will serve as my portfolio showcasing my skills and past projects.
+  Deployment Link: https://ezekielguarin.github.io/WD-Finals/
+  WakaTime: https://wakatime.com/@Ciel_Valentine
 </div>
 
 <br />
@@ -59,6 +61,12 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
+Home Page - This is the home page and the brief overview of my personal website.
+About Me - This will display all my personal informations as well as my achivements, school works, and my progress. 
+Project Showcase - This will display all my previous works in IT0043.
+Design Gallery - This will display the unique designs and animations that I made.
+Contact - This will display my contact informations. 
+
 Guiding Question:
 - What is the project - This project is about showcasing my skills and past projects.
 - Whats the purpose - It's to highlight my skills, experience and qualifications.
@@ -75,7 +83,7 @@ Guiding Question:
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -116,4 +124,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| 21 Personal Website | this site is for reference purposes for my personal website | https://colorlib.com/wp/personal-websites/ |
+| 40 Personal Website | this site is for reference purposes for my personal website | https://www.sitebuilderreport.com/inspiration/personal-websites |
