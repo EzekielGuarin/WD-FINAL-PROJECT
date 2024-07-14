@@ -388,6 +388,11 @@ body {
     font-size: 2rem;
     position: relative;
     bottom: 0.3rem;
+    color: white;
+}
+
+.fas {
+    color: white;
 }
 
 .column-3 {
