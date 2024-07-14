@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* NAVIGATION BAR */
+
+.navigation-bar {
+    position: relative;
+    top: 1rem;
+    left: 19rem;
+    width: 60vw;
+    display: flex;
+    padding: 1rem 1rem;
+    background-color: rgba(6, 6, 6, 0.5);
+    box-shadow: 1px 0px 22px 27px rgba(0,0,0,0.98);
+    -webkit-box-shadow: 1px 0px 22px 27px rgba(0,0,0,0.98);
+    -moz-box-shadow: 1px 0px 22px 27px rgba(0,0,0,0.98);
+   
+}
+
+.navigation-content {
+    position: relative;
+    left: 7rem;
+    color: white;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    
+}
+
+.navigation-content-1 {
+    background-color: white;
+    position: relative;
+    left: 6rem;
+    color: black;
+    padding: 1rem 1rem;
+}
+
+.navigation-content:hover {
+    transition: 0.7s;
+    color: black;
+    background: white;
+}
+
+/* CONTAINER-CONTENT */
+
+.container-content {
+    position: relative;
+    top: 5rem;
+    left: 6.9rem;
+    width: 85vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.153);
+    box-shadow: 1px 0px 22px 27px rgba(0,0,0,0.98);
+    -webkit-box-shadow: 1px 0px 22px 27px rgba(0,0,0,0.98);
+    -moz-box-shadow: 1px 0px 22px 27px rgba(0,0,0,0.98);
+}
+
+/* RIGHT - CONTENT */
+
+.right-container {
+    position: relative;
+    width: 51.5rem;
+    height: 100vh;
+    left: 28rem;
+    background-color: rgba(255, 255, 255, 0.948);
+    box-shadow: 16px 5px 32px 7px rgba(255,255,255,0.47);
+    -webkit-box-shadow: 16px 5px 32px 7px rgba(255,255,255,0.47);
+    -moz-box-shadow: 16px 5px 32px 7px rgba(255,255,255,0.47);
+}
+
+
+.right-container h1 {
+    text-shadow: 0px 3px 6px rgba(0,0,0,0.65);
+    color: black;
+    position: relative;
+    top: 1.8rem;
+    left: 1.5rem;
+    font-size: 24px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.right-container p {
+    line-height: 1.6rem;
+    margin-right: 2rem;
+    position: relative;
+    left: 1.5rem;
+    top: 2rem;
+    color: black;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.personal-data li {
+    position: relative;
+    top: 3rem;
+    left: 4rem;
+    list-style: none;
+}
+
+.bar
+{
+    background: #878787;
+    display: block;
+    height: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin-left: 19px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12) 0 1px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezeir(.25,.8,.25,1);
+    width: 20rem;
+}
+.bar:hover
+{
+    box-shadow: 0 14px 28px rgba(191, 73, 95, 0.25) 0 10px 10px rgba(199, 76, 76, 0.22);
+}
+.bar span
+{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(220, 220, 220)0%, rgb(13, 13, 13)100% );
+}
+.html
+{
+    width: 95%;
+    animation: html 3s;
+}
+.css
+{
+    width: 90%;
+    animation: css 3s;
+}
+.c {
+    width: 70%;
+    animation: c 3s;
+}
+@keyframes html
+{
+    0%{
+        width: 0%;
+    }    
+    95%{
+        width: 95%;
+    }
+}
+@keyframes css
+{
+    0%{
+        width: 0%;
+    }    
+    90%{
+        width: 90%;
+    }
+}
+@keyframes c
+{
+    0%{
+        width: 0%;
+    }    
+    70%{
+        width: 70%;
+    }
+}
+
+.experience h1 {
+    text-shadow: 0px 3px 6px rgba(0,0,0,0.65);
+    margin-top: 1.5rem;
+}
+
+/* LEFT - CONTENT */
+
+.left-container {
+    position: relative;
+    bottom: 45rem;
+    width: 30vw;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+.left-container h1 {
+    position: relative;
+    left: 4.3rem;
+    top: 4rem;
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 24px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.left-container h2 {
+    position: relative;
+    left: 3rem;
+    top: 5rem;
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 12px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.left-container h3 {
+    color: white;
+    position: relative;
+    left: 5.5rem;
+    top: 5rem;
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 12px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.fas {
+    position: relative;
+    top: 5.9rem;
+    left: 1rem;
+}
+
+sup {
+    font-size: 10px;
+}
+
+.left-container img {
+    position: relative;
+    top: 3rem;
+    left: 6rem;
+    width: 15rem;
+    border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+}
+
+.feu {
+    color: #ffc20e;
+}
+
+.it {
+    color: #009900;
+}
+
+
+.languages {
+    line-height: 2rem;
+    position: relative;
+    left: 4rem;
+    top: 3rem;
+}
+
+.languages h1 {
+    text-shadow: 0px 3px 5px rgba(255,255,255,0.79);
+    font-size: 17px;
+}
+
+.languages h3 {
+    position: relative;
+    left: 6.5rem;
+    letter-spacing: 3px;
+}
+
+
+/* FOOTER */
+
+.row {
+    width: 100vw;
+    height: 12.2vh;
+    top: 8rem;
+    position: relative;
+    justify-content: space-between;
+    padding: 2rem 5vw;
+    background-color: rgba(0, 0, 0, 0.219);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    box-shadow: 1px 0px 22px 27px rgba(0,0,0,0.98);
+    -webkit-box-shadow: 1px 0px 22px 27px rgba(0,0,0,0.98);
+    -moz-box-shadow: 1px 0px 22px 27px rgba(0,0,0,0.98);
+}
+
+.column-1 img {
+    width: 3rem;
+    position: relative;
+    bottom: 1.1rem;
+}
+
+.fab{
+    font-size: 2rem;
+    position: relative;
+    bottom: 0.3rem;
+}
+
+.column-3 {
+    position: relative;
+    font-size: 1.5rem;
+    bottom: 5.9rem;
+    right: 1.7rem;
+}
