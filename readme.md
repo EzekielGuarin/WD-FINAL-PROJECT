@@ -14,8 +14,8 @@
 <!-- TODO: Make a short description -->
 <div align="center">
   This project is a personal website that demonstrates the designs skills and web development knowledge. This website includes 5 pages, showcasing distinct layout for various features. This will serve as my portfolio showcasing my skills and past projects.
-  Deployment Link: https://ezekielguarin.github.io/WD-Finals/
-  WakaTime: https://wakatime.com/@Ciel_Valentine
+  <br>Deployment Link: https://ezekielguarin.github.io/WD-Finals/
+  <br>WakaTime: https://wakatime.com/@Ciel_Valentine
 </div>
 
 <br />
@@ -61,11 +61,11 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Home Page - This is the home page and the brief overview of my personal website.
-About Me - This will display all my personal informations as well as my achivements, school works, and my progress. 
-Project Showcase - This will display all my previous works in IT0043.
-Design Gallery - This will display the unique designs and animations that I made.
-Contact - This will display my contact informations. 
+- Home Page - This is the home page and the brief overview of my personal website.
+- About Me - This will display all my personal informations as well as my - achivements, school works, and my progress. 
+- Project Showcase - This will display all my previous works in IT0043.
+- Design Gallery - This will display the unique designs and animations that I made.
+- Contact - This will display my contact informations. 
 
 Guiding Question:
 - What is the project - This project is about showcasing my skills and past projects.
